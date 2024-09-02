@@ -1,4 +1,4 @@
-import { isUndefined } from '../isUndefined/isUndefined.ts';
+import { isUndefined } from '../isUndefined/isUndefined';
 
 
 export const isOptional = function <T> (value: unknown, guard: (value: unknown) => value is T): boolean {

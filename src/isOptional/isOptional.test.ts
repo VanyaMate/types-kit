@@ -1,11 +1,11 @@
 import { describe, expect, test } from 'vitest';
-import { isOptional } from './isOptional.ts';
-import { isString } from '../isString/isString.ts';
-import { isArray } from '../isArray/isArray.ts';
-import { isUndefined } from '../isUndefined/isUndefined.ts';
-import { isNumber } from '../isNumber/isNumber.ts';
-import { isObject } from '../isObject/isObject.ts';
-import { isNull } from '../isNull/isNull.ts';
+import { isOptional } from './isOptional';
+import { isString } from '../isString/isString';
+import { isArray } from '../isArray/isArray';
+import { isUndefined } from '../isUndefined/isUndefined';
+import { isNumber } from '../isNumber/isNumber';
+import { isObject } from '../isObject/isObject';
+import { isNull } from '../isNull/isNull';
 
 
 describe('isOptional', () => {

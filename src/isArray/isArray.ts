@@ -1,4 +1,4 @@
-import { isUndefined } from '../isUndefined/isUndefined.ts';
+import { isUndefined } from '../isUndefined/isUndefined';
 
 
 export const isArray = function <T> (array: unknown, guard?: (value: unknown) => value is T): array is Array<T> {
