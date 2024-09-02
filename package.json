@@ -1,0 +1,17 @@
+{
+    "name": "@vanyamate/types-kit",
+    "private": false,
+    "version": "0.0.2",
+    "type": "module",
+    "main": "index.ts",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "vitest",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.3",
+        "vite": "^5.4.1",
+        "vitest": "^2.0.5"
+    }
+}
