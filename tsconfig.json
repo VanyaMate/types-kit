@@ -5,6 +5,7 @@
         "declaration": true,
         "outDir": "./",
         "rootDir": "./",
+        "outFile": "./index.d.ts",
         "strict": true,
         "esModuleInterop": true,
         "emitDeclarationOnly": true
