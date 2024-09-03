@@ -1,14 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "commonjs",
+        "target": "es6",
+        "module": "ES2020",
         "declaration": true,
-        "outDir": "./",
+        "outDir": "./dist",
         "rootDir": "./",
-        "outFile": "./index.d.ts",
         "strict": true,
-        "esModuleInterop": true,
-        "emitDeclarationOnly": true
+        "esModuleInterop": true
     },
     "include": [
         "./index.ts"
