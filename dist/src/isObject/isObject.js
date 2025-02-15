@@ -1,8 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.isObject = void 0;
-const isArray_1 = require("../isArray/isArray");
-const isObject = function (value) {
-    return typeof value === 'object' && value !== null && !(0, isArray_1.isArray)(value);
+import { isArray } from '../isArray/isArray';
+export const isObject = function (value) {
+    return typeof value === 'object' && value !== null && !isArray(value);
 };
-exports.isObject = isObject;
