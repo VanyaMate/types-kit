@@ -1,20 +1,24 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "esnext",
+        "module": "esnext", // ESM (mjs)
         "moduleResolution": "node",
         "declaration": true,
-        "outDir": "./dist",
-        "rootDir": "./",
+        "declarationDir": "./dist/types",
         "strict": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./dist/esm",
+        "rootDir": "./src",
+        "skipLibCheck": true,
+        "resolveJsonModule": true
     },
     "include": [
-        "./index.ts"
+        "src/**/*.ts"
     ],
     "exclude": [
+        "src/**/*.test.ts",
         "node_modules",
-        "dist",
-        "src/**/*.test.ts"
+        "dist"
     ]
 }

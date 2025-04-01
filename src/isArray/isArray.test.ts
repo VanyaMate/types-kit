@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest';
-import { isArray } from './isArray.ts';
-import { isNumber } from '../isNumber/isNumber.ts';
-import { isString } from '../isString/isString.ts';
+import { isArray } from './isArray';
+import { isNumber } from '../isNumber/isNumber';
+import { isString } from '../isString/isString';
 
 
 describe('isArray', () => {
