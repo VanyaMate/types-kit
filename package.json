@@ -1,23 +1,26 @@
 {
     "name": "@vanyamate/types-kit",
-    "version": "0.0.19",
-    "main": "./dist/cjs/index.js",
-    "types": "./dist/types/index.d.ts",
-    "module": "./dist/esm/index.js",
+    "version": "0.0.20",
+    "main": "./dist/types-kit.js",
+    "types": "./dist/index.d.ts",
+    "module": "./dist/types-kit.mjs",
     "exports": {
-        "types": "./dist/types/index.d.ts",
-        "require": "./dist/cjs/index.js",
-        "import": "./dist/esm/index.js"
+        "types": "./dist/index.d.ts",
+        "require": "./dist/types-kit.js",
+        "import": "./dist/types-kit.mjs"
     },
     "scripts": {
         "test": "vitest",
         "build:esm": "tsc --project tsconfig.json",
         "build:cjs": "tsc --project tsconfig.build.cjs.json",
-        "build": "npm run build:esm && npm run build:cjs"
+        "build": "npm run build:esm && npm run build:cjs && npx tsc-alias -p tsconfig.json",
+        "build:vite": "vite build"
     },
     "devDependencies": {
+        "tsc-alias": "^1.8.13",
         "typescript": "^5.5.3",
         "vite": "^5.4.1",
+        "vite-plugin-dts": "^4.5.3",
         "vitest": "^2.0.5"
     },
     "files": [

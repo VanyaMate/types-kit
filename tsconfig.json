@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "esnext", // ESM (mjs)
+        "module": "esnext",
         "moduleResolution": "node",
         "declaration": true,
         "declarationDir": "./dist/types",

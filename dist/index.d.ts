@@ -6,5 +6,5 @@ export { isOptional } from './isOptional/isOptional';
 export { isString } from './isString/isString';
 export { isUndefined } from './isUndefined/isUndefined';
 export { isBoolean } from './isBoolean/isBoolean';
-export { TypeAssert } from './types/TypeAssert';
-export { TypeGuard } from './types/TypeGuard';
+export { type TypeAssert } from './types/TypeAssert';
+export { type TypeGuard } from './types/TypeGuard';
